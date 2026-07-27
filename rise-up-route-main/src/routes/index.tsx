@@ -134,7 +134,7 @@ function Landing() {
         <Suspense fallback={<div className="flex items-center justify-center min-h-[200px]">Loading benefits...</div>}>
           <BenefitsMindMap centerLabel={t.benefits.title} />
         </Suspense>
-      </section>
+      </Section>
 
 
       {/* TRANSFORMATION */}
